@@ -1,7 +1,6 @@
 def word_appear(file_name):
     word_counter={}
     low_file_name = file_name.lower()
-   # word_list = low_file_name.split()
     for word in low_file_name:
         if word in word_counter:
           word_counter[word] += 1
@@ -9,7 +8,7 @@ def word_appear(file_name):
           word_counter[word] = 1
     print(word_counter)
     return word_counter
-#puts entire string into lowercase, then splits it, and populates the directory with word counts.
+#puts entire string into lowercase, then splits it, and populates the directory with character counts.
 
 
 
